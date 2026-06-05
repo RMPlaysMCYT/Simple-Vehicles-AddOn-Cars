@@ -28,7 +28,8 @@
 					"type": "int",
 					"default": 0,
 					"range": [
-						0, 1
+						0,
+						1
 					],
 					"client_sync": true
 				},
@@ -36,7 +37,8 @@
 					"type": "int",
 					"default": 0,
 					"range": [
-						0, 5
+						0,
+						5
 					],
 					"client_sync": true
 				},
@@ -44,7 +46,8 @@
 					"type": "int",
 					"default": 5,
 					"range": [
-						0, 5
+						0,
+						5
 					],
 					"client_sync": true
 				}
