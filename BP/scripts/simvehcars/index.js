@@ -14,16 +14,3 @@ world.afterEvents.playerInteractWithEntity.subscribe(({player, target: entity}) 
         }
     }
 })
-
-world.afterEvents.playerSpawn.subscribe(
-    (event) => {
-        if (!event.initialSpawn) return
-        const { player } = event;
-
-        player.setDynamicProperty(SimVehCarsBook, true)
-        if (player.getDynamicProperty(SimVehCarsBook)) return;
-        player.sendMessage("This Simple Vehicles Add-on: CARS Requires Base Version of Simple Vehicles Add-On")
-
-        player.setDynamicProperty(SimVehCarsBook, false);
-    }
-);
