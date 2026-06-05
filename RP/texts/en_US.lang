@@ -1,0 +1,16 @@
+pack.name=Simple Vehicles Add-on - CARS RP
+pack.description=This Add-on adds any types of cars to your Minecraft World and It's different from the Original Ones 
+
+entity.simvehcars:microcar.name=Microcar
+entity.simvehcars:subcompact_car.name=Subcompact Car
+entity.simvehcars:compact_car.name=Compact Car
+entity.simvehcars:midi_size_car.name=Midi Size Car
+entity.simvehcars:entry_level_luxury_car.name=Entry Level Luxury Car
+entity.simvehcars:full_size_car.name=Full Size Car
+
+item.spawn_egg.entity.simvehcars:microcar.name=Spawn Microcar
+item.spawn_egg.entity.simvehcars:subcompact_car.name=Spawn Subcompact Car
+item.spawn_egg.entity.simvehcars:compact_car.name=Spawn Compact Car
+item.spawn_egg.entity.simvehcars:midi_size_car.name=Spawn Midi Size Car
+item.spawn_egg.entity.simvehcars:entry_level_luxury_car.name=Spawn Entry Level Luxury Car
+item.spawn_egg.entity.simvehcars:full_size_car.name=Spawn Full Size Car

@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "simvehcars:entry_level_luxury_car_egg",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

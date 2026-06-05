@@ -1,0 +1,74 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"RMPlaysMC YT"
+		],
+		"license": "MIT",
+		"url": "",
+		"generated_with": {
+			"bridge": [
+				"2.7.54"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			20,
+			50
+		],
+		"uuid": "b4e21789-dc71-4bf0-a989-52b011cd2f1c",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "2f806cbb-ca71-46a7-9d40-a95388774203",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"description": "pack.description",
+			"entry": "scripts/simvehcars/index.js",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "14797296-ec3d-4b84-a9f9-e29ea29217d9",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "d0881ea6-13db-4dd1-8ac2-61ba7ac9dcbb",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.19.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.3.0"
+		}
+	]
+}

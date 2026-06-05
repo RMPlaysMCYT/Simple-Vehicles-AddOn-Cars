@@ -1,0 +1,105 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.simvehcars_microcar.move": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"tire0": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [360, 0, 0]
+					}
+				},
+				"tire1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [360, 0, 0]
+					}
+				},
+				"steer": {
+					"rotation": {
+						"0.0": [0, 0, "-(query.property('simvehcars:compact_car_steerotations_prev') - 360) + 3 - (math.sin(query.anim_time * 180) + 0.5) * 6"],
+						"1.0": [0, 0, "-(query.property('simvehcars:compact_car_steerotations') - 360) + 3 - (math.sin(query.anim_time * 180) + 0.5) * 6"]
+					}
+				},
+				"body": {
+					"rotation": [0, 0, 0]
+				},
+				"mach0": {
+					"scale": "math.min(1, query.property('simvehcars:engine_type') * 0.75)"
+				}
+			}
+		},
+		"animation.simvehcars_microcar.door_open": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"door0": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, -55, 0]
+					}
+				},
+				"door1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 55, 0]
+					}
+				}
+			}
+		},
+		"animation.simvehcars_microcar.door_close": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"door0": {
+					"rotation": {
+						"0.0": [0, -55, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"door1": {
+					"rotation": {
+						"0.0": [0, 55, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.simvehcars_microcar.door_close2": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"door0": {
+					"rotation": [0, 55, 0]
+				},
+				"door1": {
+					"rotation": [0, -55, 0]
+				}
+			}
+		},
+		"animation.simvehcars_microcar.idle": {
+			"loop": true,
+			"bones": {
+				"tire0": {
+					"rotation": [0, 0, 0]
+				},
+				"tire1": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		},
+		"animation.simvehcars_microcar.door_close_standby": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"door0": {
+					"rotation": [0, 0, 0]
+				},
+				"door1": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		}
+	}
+}

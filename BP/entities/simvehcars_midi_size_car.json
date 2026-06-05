@@ -1,0 +1,75 @@
+{
+	"format_version": "1.18.30",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "simvehcars:midi_size_car",
+			"is_summonable": true,
+			"is_spawnable": true
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:healable": {
+				"force_use": false,
+				"items": [
+					{
+						"item": "simple_vehicles:wrench",
+						"effects": [
+							{
+								"name": "regeneration",
+								"amplifier": 2,
+								"duration": 2
+							}
+						]
+					}
+				]
+			},
+			"minecraft:scale": {
+				"value": 0.9
+			},
+			"minecraft:health": {
+				"value": 50
+			},
+			"minecraft:physics": {},
+			"minecraft:collision_box": {
+				"height": 1,
+				"width": 2
+			},
+			"minecraft:movement": {
+				"value": 0.2
+			},
+			"minecraft:rideable": {
+				"controlling_seat": 0,
+				"crouching_skip_interact": true,
+				"family_types": [
+					"player"
+				],
+				"interact_text": "Ride",
+				"pull_in_entities": false,
+				"rider_can_interact": false,
+				"seat_count": 1,
+				"seats": [
+					{
+						"position": [
+							0.55,
+							0.45,
+							0
+						]
+					}
+				]
+			},
+			"minecraft:input_ground_controlled": {},
+			"minecraft:movement.generic": {},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:jump.dynamic": {},
+			"minecraft:horse.jump_strength": {
+				"value": 0.1
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/vehicles/simvehcars_midi_size_car.json"
+			}
+		},
+		"events": {}
+	}
+}

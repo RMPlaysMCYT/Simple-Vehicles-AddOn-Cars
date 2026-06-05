@@ -1,0 +1,54 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"RMPlaysMC YT"
+		],
+		"license": "MIT",
+		"url": "",
+		"generated_with": {
+			"bridge": [
+				"2.7.54"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			20,
+			50
+		],
+		"uuid": "d0881ea6-13db-4dd1-8ac2-61ba7ac9dcbb",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "ecb00e9b-1a27-4f58-ad69-0246f3d499cf",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "b4e21789-dc71-4bf0-a989-52b011cd2f1c",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
